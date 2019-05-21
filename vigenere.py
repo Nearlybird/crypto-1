@@ -32,7 +32,7 @@ def encrypt(message, key):
 
 def main():
     from sys import argv
-    if argv[1].isalpha == True:
+    if argv[1].isalpha() == True:
         message = input("What message do you wish to encrypt?\n")
         # key = input("What is the codeword to encrypt the message with?\n")
         key = argv[1]
